@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="GlucoApp is an initiative to help patients monitor blood-glucose levels and spread education about diabetes. Through the use of a machine learning algorithm, GlucoApp not only provides a method of recording current blood-glucose levels, but also a way to predict future changes. The goal of this app is to give those who suffer from diabetes the means to better their lives in all parts of the globe."
+        android:text="1GlucoApp is an initiative to help patients monitor blood-glucose levels and spread education about diabetes. Through the use of a machine learning algorithm, GlucoApp not only provides a method of recording current blood-glucose levels, but also a way to predict future changes. The goal of this app is to give those who suffer from diabetes the means to better their lives in all parts of the globe."
         android:id="@+id/textView4"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
