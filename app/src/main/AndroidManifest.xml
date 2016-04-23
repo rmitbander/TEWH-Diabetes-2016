@@ -18,6 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Data_Logging"
+            android:label="@string/title_activity_data__logging"
+            android:parentActivityName=".About"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.kevinchoyutexas.about.About" />
+        </activity>
     </application>
 
 </manifest>
