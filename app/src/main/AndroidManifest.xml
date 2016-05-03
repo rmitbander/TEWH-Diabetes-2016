@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="edu.kevinchoyutexas.about">
+=======
+    package="edu.utexas.tewh.testapp1">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+>>>>>>> 9183282ae219051b92edf8abacdbc8784ce8b507
 
     <application
         android:allowBackup="true"
@@ -9,9 +18,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+<<<<<<< HEAD
             android:name=".About"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+=======
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+>>>>>>> 9183282ae219051b92edf8abacdbc8784ce8b507
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,6 +33,7 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".Data_Logging"
             android:label="@string/title_activity_data__logging"
             android:parentActivityName=".About"
@@ -27,6 +42,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.kevinchoyutexas.about.About" />
         </activity>
+=======
+            android:name=".DataEntry"
+            android:label="@string/title_activity_data_entry"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+>>>>>>> 9183282ae219051b92edf8abacdbc8784ce8b507
     </application>
 
 </manifest>

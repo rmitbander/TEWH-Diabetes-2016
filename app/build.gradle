@@ -5,7 +5,11 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "edu.kevinchoyutexas.about"
+=======
+        applicationId "edu.utexas.tewh.testapp1"
+>>>>>>> 9183282ae219051b92edf8abacdbc8784ce8b507
         minSdkVersion 8
         targetSdkVersion 23
         versionCode 1
